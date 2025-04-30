@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "dont-read-the-comments",
+    "version": "1.0",
+    "description": "Removes the comment widget from YouTube Studio.",
+    "permissions": ["scripting"],
+    "host_permissions": ["https://studio.youtube.com/*"],
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://studio.youtube.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
+  
