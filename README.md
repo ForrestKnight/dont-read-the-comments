@@ -1,6 +1,6 @@
 # dont-read-the-comments
 
-A Chrome extension that hides the "Latest comments" widget from YouTube Studio.
+A Chrome extension that hides the "Comments" widget from YouTube Studio.
 
 ## How to Install Manually
 
